@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Coda , cursive;
+}
+
+.container {
+  align-items: center;
+  background-image: url('../background-game.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+
+.title-login {
+  font-size: 30px;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.input-name {
+  background-color: white;
+  border: 1px solid #bdbbbb;
+  border-radius: 6px;
+  font-size: 16px;
+  height: 43px;
+  margin-bottom: 15px;
+  margin-top: 3px;
+  outline: #3483fa;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.input-name:hover {
+  border: 2px solid #3483fa;
+}
+
+.label {
+  padding-left: 3px;
+}
+
+.form {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(107, 107, 107);
+  margin: auto;
+  padding: 2rem;
+  width: 450px;
+}
+
+.btn-settings {
+  align-items: center;
+  background: #e463c3;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Coda , cursive;
+  font-size: 16px;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 45px;
+  transition: transform 0.3s;
+  width: 100%;
+}
+
+.btn-settings:hover {
+  transform: scale(1.03);
+}
+
+.btn-login {
+  align-items: center;
+  background-color: #3f88ee;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Coda , cursive;
+  font-size: 16px;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+  width: 100%;
+}
+
+.btn-login:hover {
+  transform: scale(1.03);
+}
+
+img {
+  height: 300px;
+  margin: auto;
+}

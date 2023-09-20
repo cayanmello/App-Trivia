@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-ranking {
+  align-items: center;
+  background-image: linear-gradient(to right top, #d16ba5, #ca7ebe, #c090d1, #b7a2e0, #b0b2ea, #a6bef4, #9ec9fb, #97d4ff, #81dfff, #6ce9ff, #5ef3fe, #5ffbf1);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.raking-container {
+  align-items: center;
+  display: flex;
+}
+
+.score {
+  align-items: center;
+  background-color: #3f88ee;
+  border-radius: 3px;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 60px;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  width: 60px;
+}
+
+.style1 {
+  background-color: rgb(236, 194, 55);
+}
+
+.style2 {
+  background-color: rgb(200, 199, 199);
+}
+
+.style3 {
+  background-color: rgb(170, 104, 28);
+}
+
+.container-ranking {
+  align-items: center;
+  background-color: rgb(87, 8, 190);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  margin: auto;
+  margin-bottom: 2rem;
+  overflow-y: scroll;
+  width: 600px;
+}
+
+.trophy {
+  color: white;
+  font-size: 45px;
+}
+
+.title-ranking {
+  align-items: center;
+  background-color: rgb(59, 7, 128);
+  border-radius: 15px 15px 0 0;
+  color: white;
+  display: flex;
+  font-family: Dela Gothic One , cursive;
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-left: 15%;
+  padding-top: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-play-login {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px rgba(47, 47, 47, 0.719);
+  cursor: pointer;
+  font-size: 25px;
+  height: 50px;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.player-ranking {
+  align-items: center;
+  background-color: #38b6ff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  min-height: 60px;
+  width: 400px;
+}
+
+.picture-ranking {
+  border: 5px solid #38b6ff;
+  border-radius: 50%;
+  height: 55px;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: -22px;
+  padding: 0;
+  width: 55px;
+  z-index: 1;
+}
+
+.name-ranking {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 1px;
+  margin-left: 17px;
+}
+
+.name-score-container {
+  background-color: white;
+  border-radius: 0 30px 30px 0;
+  height: 45px;
+  margin-left: 10px;
+  padding-left: 0.3rem;
+  width: 300px;
+}
+
+.score-ranking {
+  color: #33327e;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-left: 17px;
+}
